@@ -1,0 +1,97 @@
+
+.form-section {
+    height: 100vh;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.form-section .form-wrapper {
+    display: inline-block;
+    box-shadow: 2px 2px 15px 10px #e4e4e4;
+    padding: 5rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-section .form-header h1 {
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+
+.form-section form input[type="text"],
+.form-section form input[type="password"],
+.form-section form input[type="email"],
+.form-section form input[type="tel"],
+.form-section form input[type="textarea"] {
+    background-color: #f2f2f2;
+    border: none;
+    outline: none;
+    width: 30rem;
+    height: 5rem;
+    border-radius: 5px;
+    padding-left: 2rem;
+}
+.form-section form input[type="checkbox"]{
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+}
+
+.form-section form .form-group {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.form-section form .form-group:last-child {
+    margin-bottom: 0;
+}
+
+.form-section form .form-group a {
+    transition: none;
+}
+
+.form-section form .form-group a:hover {
+    border-bottom: none !important;
+}
+
+.form-section form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 3.5rem;
+    background-color: #242424;
+    color: aliceblue;
+    font-size: 2rem;
+    border: 1px solid #242424;
+    ;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    border-radius: 5px;
+}
+
+.form-section form button:hover {
+    background-color: #fff;
+    color: #242424;
+    border: 1px soild #242424;
+}
+
+.form-section .form-missing-info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.form-section .form-missing-info span {
+    width: 50%;
+}
+
+.form-section .form-missing-info .f-password {
+    text-align: left;
+}
+
+.form-section .form-missing-info .sign-up {
+    text-align: right;
+}
